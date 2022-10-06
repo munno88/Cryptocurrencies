@@ -19,7 +19,7 @@ In this analysis we learned and applied:
 
 The original dataset contained 1,252 entries, however only 1,144 cryptocurrencies were currently trading. The data was further munged to remove `null values` and only leave cryptocurrencies that had a total number of mined coins greater than 0. The final results identified 532 tradable cryptocurrencies.
 
-![Screenshot 2022-10-06 151814](https://user-images.githubusercontent.com/103727169/194429078-10068f27-00b7-420d-848c-68a2314e226f.png)
+![Screenshot 2022-10-06 151814](https://user-images.githubusercontent.com/103727169/194438680-6b5a814a-f4f9-4318-84bc-e56fd5b1fbcf.png)
 
 The **Elbow Curve** method showed the slope at 4. This is the number of clusters that was used for the KMeans algorithm.
 ![Screenshot 2022-10-06 161659](https://user-images.githubusercontent.com/103727169/194435357-9a50a6bc-1170-4d0d-aa2d-a8a0e3c9a610.png)
